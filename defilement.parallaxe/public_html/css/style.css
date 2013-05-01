@@ -1,0 +1,21 @@
+/* 
+    Document   : style
+    Created on : 01-mai-2013, 15:52:25
+    Author     : Gentlenam
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    background-color: #1a1a1a;
+    background-image :      
+        url(img/vines-front.png) repeat-x fixed -50% 0,
+        url(img/vines-mid.png) repeat-x fixed 120% 0,
+        url(img/main.gif) repeat-x fixed -80% 0,
+        url(img/body.gif) repeat-x fixed;
+}
+

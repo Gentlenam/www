@@ -1,0 +1,341 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #6e9b68 url("/images/backgrounds/body.gif") -10% 0 repeat-x;
+	color: #333;
+	font-family: "Helvetica Neue",Helvetica,Arial;
+	line-height: 1.3;
+}
+a,img {
+	border: 0;
+}
+p {
+	margin: 1em 0 0.8em;
+}
+.clear {
+	clear: both;
+}
+.right {
+    float: right;
+    margin-left: 10px;
+}
+.home #main .content {
+	background: transparent url("/images/backgrounds/main.gif") left bottom repeat-x;
+}
+#main .outer {
+	background: transparent url("/images/backgrounds/vines-mid.png") 70% 0 repeat-x;
+}
+#main .inner {
+	background: transparent url("/images/backgrounds/vines-front.png") 300% 0 repeat-x;
+}
+#main .content {
+	width: 838px;
+	margin: 0 auto;
+	padding: 80px 0;
+}
+#main .content #steve {
+	width: 343px;
+	height: 380px;
+	float: left;
+}
+#main .content #offers {
+	font-size:90%;	position: relative;
+	float: left;
+	margin-top: 0;
+	width: 324px;
+	background: transparent url("/images/backgrounds/bubble.png") 2px 0 no-repeat;
+}
+#main .content #offers h2 {
+	margin:0;
+	padding:0 0 0 0.5em;
+}
+#main .content #offers p {
+	margin:0;
+	padding:20px 20px 0 20px;
+	color:#666;
+}
+#main .content #offers p.credit{
+	font-size:85%;
+	padding:10px 20px 10px 20px;
+}
+#main .content #offers p a {
+	font-weight:bold;
+	color:#000;
+	white-space:nowrap;
+}
+#visual{
+	float:left;
+	width:366px;
+}
+/* @group #intro */
+
+#main .content #intro {
+	position: relative;
+	width: 472px;
+	float: right;
+	color:#404836;
+}
+#main .content #intro h1,
+#main .content #intro p,
+#main .content #intro ul {
+	padding-left: 0;
+}
+#main .content #intro #presents{
+	font-size:90%;
+	margin:0 0 1.8em 0;
+	color:#839966;
+}
+#main .content #intro #presents a{
+	color:#333;
+}
+#main .content #intro h1 img {
+	width: 426px;
+	height: 47px;
+}
+#main .content #intro p {
+	font-size: 1.5em;
+	margin-top:0.4em;
+	font-family: "rockwell light", rockwell, clarendon, helvetica,"sans-serif";
+}
+#main .content #intro ul {
+	list-style: none;
+	background-color:#D3FF99;
+	float:left;
+    width:49.9%;
+    font-size:0.875em; /* 14px/16px */
+}
+#main .content #intro ul li {
+	background: transparent url("/images/icons/banana-sb2.gif") left 5px no-repeat;
+	position: relative;
+	padding: 0.5em 0 1em 25px;
+}
+#main .content #intro #features {
+    clear:both;
+    padding-top:30px;
+    background-color:#D3FF99;
+    -moz-border-radius:0 0 10px 10px;
+	-webkit-border-radius:0 0 10px 10px;
+	border-radius:0 0 10px 10px;
+	padding-bottom:10px;
+	position:relative;
+}
+#main .content #intro #features .new-features {
+    position:absolute;
+    top:0px;
+    right:15px;
+}
+#main .content #intro #features dl {
+    float:left;
+    width:46%;
+    padding:0 15px 0 0;
+}
+#main .content #intro #features dt {
+    font-size:0.875em; /* 14px/16px */
+    font-weight:bold;
+}
+#main .content #intro #features dd {
+    font-size:0.8125em; /* 13px/16px */
+    margin:0.3em 0 1em 0;
+}
+#main .content #intro #features .container {
+    margin:0 10px;
+    background-color:#C3EF85;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    padding:10px 20px 80px 20px;
+    overflow:hidden;
+}
+#main .content #intro #features p {
+    font-family:"rockwell light", rockwell, clarendon, helvetica, "sans-serif";
+}
+#main .content #intro #download {
+	position:absolute;
+	left:10px;
+	bottom:15px;
+}
+#main .content #intro form {
+	position:absolute;
+	right:10px;
+	bottom:15px;
+}
+#main .content #intro form fieldset {
+	border: 0;
+}
+#main .content #intro p#reqs{
+	color: #fff;
+	font-size: 0.8em;
+	font-weight:normal;
+	vertical-align:middle;
+	position:relative;
+	left:-350px;
+	bottom:20px;
+}
+#main .content #intro p#reqs img{
+	margin-right: 0.5em;
+}
+#main .content #intro p#reqs span{
+	float: left;
+	margin-right: 0.5em;
+	margin-left:-0.8em;
+	vertical-align: middle;
+}
+/* @end */
+
+/* @group #explanation */
+
+#main .content #explanation {
+	width: 838px;
+	clear: both;
+	background: transparent url("/images/backgrounds/explanation.gif") left bottom no-repeat;
+	color: #fff;
+	padding-bottom: 40px;
+}
+#main .content #explanation .content {
+	background: #679161;
+	padding: 0;
+	position: relative;
+	overflow: hidden;
+}
+#main .content #explanation h2 {
+	line-height: 0;
+}
+#main .content #explanation p {
+	width: 350px;
+	margin: 50px 0 20px;
+	background:#679161;
+}
+#main .content #explanation p.first {
+	position: relative;
+	float: left;
+	clear: left;
+	left: 50px;
+}
+#main .content #explanation p.last {
+	position: relative;
+	float: right;
+	clear: right;
+	right: 50px;
+}
+/* @end */
+
+/* @group details */
+
+#main .content #details {
+	background:  #a8d56f url("/images/backgrounds/details-top.gif") left top no-repeat;
+	color: #366648;
+	clear: both;
+}
+#main .content #details a {
+	color: #333;
+	font-weight: bold;
+}
+#main .content #details h3 {
+	text-align: center;
+	margin-bottom: 35px;
+}
+#main .content #details .content {
+	margin: 0;
+	padding: 0;
+	background: transparent url("/images/backgrounds/details-bottom.gif") left bottom no-repeat;
+	overflow: hidden;
+	clear: both;
+}
+#main .content #details .content #demo {
+	width: 569px;
+	text-align: center;
+	position: relative;
+	float: left;
+	padding: 30px 0;
+	border-right: 1px solid #6e9b68;
+}
+#main .content #details .content #info {
+	width: 267px;
+	position: relative;
+	float: right;
+	left: -1px;
+	padding: 30px 0;
+	border-left: 1px solid #6e9b68;
+}
+#main .content #details .content #info p {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+#main .content #details .content #info #support {
+	margin-top:3em;
+}
+
+/* @end */
+
+/* @group Gorillas */
+#main .content #offers.gorilla p a {
+    color: #5285AA;
+}
+#main .content #offers.gorilla p strong {
+    color: #383330;
+}
+#main .gorilla-banner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-indent: -9999px;
+    z-index: 1000;
+    width: 210px;
+    height: 210px;
+    background: url("/images/df-banner.png") 0 0 no-repeat;
+    margin: 0;
+}
+/* @end Gorillas */
+
+/* @group footer */
+
+#footer {
+	background: transparent url("/images/backgrounds/footer-top.gif") left top repeat-x;
+	position: relative;
+	top: -30px;
+	padding-top: 19px;
+}
+#footer .outer {
+	background: #444847 url("/images/backgrounds/footer-bottom.gif") left bottom repeat-x;
+	padding-bottom: 19px;
+	overflow: hidden;
+	text-align:center;
+}
+#footer .inner {
+	background: #444847;
+	color: #ccc;
+	width:838px;
+	margin:0 auto;
+	text-align:left;
+}
+#footer a {
+	color: #fff;
+}
+#footer .content {
+	width: 430px;
+	margin:10px 50px 0 0;
+	font-size: 0.9em;
+	float:left;
+	background: transparent url("/images/icons/clearleft.gif") left top no-repeat;
+}
+#footer .content p {
+	margin-left: 80px;
+}
+#footer form {
+	font-size:0.9em;
+	padding-top:0.7em;
+}
+#footer form input#email {
+	font-family: "Helvetica Neue",Helvetica,Arial;
+	font-size:1.3em;
+	padding:0.2em;
+}
+#footer .content p.vcard, #footer form p label {
+	font-weight: bold;
+	color: #fff;
+}
+
+/* @end */
+
