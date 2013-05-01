@@ -10,3 +10,27 @@ root {
     display: block;
 }
 
+ul.gallery li {
+    float: left;
+    margin : 0 10px 0 10px;
+    list-style-type: none;
+    border: #eee 1px solid;
+}
+
+ul.gallery li a img {
+    width : 200px;
+    height : 150px;
+}
+
+ul.gallery li a:hover img {
+    -webkit-transform-origin : top left;
+    -moz-transform-origin: top left;
+    -o-transform-origin : top left;
+    transform-origin: top left; 
+    -webkit-transform : scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform : scale(1.5);
+    transform: scale(1.5);
+}
+
+
